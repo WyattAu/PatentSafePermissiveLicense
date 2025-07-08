@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Lint: RFC 7991 Text Files",
+      "type": "shell",
+      "command": "python scripts/rfc7991_formatter.py --lint",
+      "problemMatcher": {
+        "owner": "rfc7991",
+        "pattern": {
+          "regexp": "^(.+):(\\d+):(\\d+):\\s(.+)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        }
+      }
+    },
+    {
+      "label": "Lint: Strict Markdown",
+      "type": "npm",
+      "script": "lint:md",
+      "problemMatcher": ["$markdownlint"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Fix: Markdown Formatting",
+      "type": "npm",
+      "script": "fix:md",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run All Compliance Checks",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Lint: RFC 7991 Text Files",
+        "Lint: Strict Markdown"
+      ],
+      "group": "build"
+    }
+  ]
+}

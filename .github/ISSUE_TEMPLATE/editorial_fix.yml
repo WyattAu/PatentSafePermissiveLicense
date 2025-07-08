@@ -1,0 +1,31 @@
+name: Editorial Correction
+description: Fix typos, formatting, or documentation
+title: "[EDITORIAL] "
+labels: ["editorial", "triage"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: File Locations
+      placeholder: "docs/RATIONALE.md §4, PSPL.spdx Line 28"
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Current Text
+      description: Exact text needing correction
+      placeholder: "infrigement"
+  - type: textarea
+    id: proposed-text
+    attributes:
+      label: Corrected Text
+      placeholder: "infringement"
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Verification
+      options:
+        - label: This change doesn't alter legal meaning
+          required: true
+        - label: I've checked SPDX ID consistency (PSPL-1.0)

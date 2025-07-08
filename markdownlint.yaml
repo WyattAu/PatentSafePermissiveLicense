@@ -1,0 +1,10 @@
+rules:
+  emphasis-style: asterisk
+  strong-style: asterisk
+  list-indent: 2
+  code-block-style: fenced
+  code-fence-style: backtick
+  hr-style: ---
+  header-style: atx
+  header-increment: true
+  ol-prefix: ordered

@@ -1,0 +1,140 @@
+PATENT-SAFE PERMISSIVE LICENSE
+Version 0.0.1
+[Effective Date: 2025/07/08]
+https://github.com/WyattAu/PatentSafePermissiveLicense
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions
+
+1.1 "License" denotes the terms and conditions contained in Sections 1 through 11 of this document.
+1.2 "Licensor" means the copyright owner(s) or entity authorized to grant rights to the Work.
+1.3 "Legal Entity" refers to any entity exercising Control over, Controlled by, or under common Control with another entity.
+1.3.1 "Control" signifies:
+    (a) Direct/indirect authority to manage the entity (contractual or otherwise)
+    (b) Beneficial ownership of ≥50% voting shares or interests
+    (c) Delegated governance authority under valid legal instrument
+1.4 "You" (or "Your") designates any individual or Legal Entity exercising permissions granted under this License.
+1.5 "Source Form" means human-readable form including software source code, digital assets, API definitions, infrastructure-as-code templates, and configuration data.
+1.6 "Object Form" signifies transformed representations including compiled executables, containerized applications, machine-generated outputs, and digitally optimized formats.
+1.7 "Work" denotes copyrightable material licensed hereunder, identified by inclusive copyright notice(s).
+1.8 "Derivative Work" means copyrightable modification(s) based on the Work, excluding independent works that interoperate through standardized interfaces.
+1.8.1 "Standardized Interface" means public APIs, libraries, or communication protocols documented for external use.
+1.9 "Contribution" signifies any work intentionally submitted to Licensor for Work incorporation, including but not limited to pull requests, patch submissions, and issue tracker contributions.
+1.10 "Contributor" includes Licensor and all entities providing Contributions.
+1.11 "Governance Jurisdiction" means:
+    (a) Jurisdiction of Licensor's principal business operations, or
+    (b) Switzerland if jurisdiction is unspecified or conflict arises.
+
+2. Copyright License Grant
+
+2.1 Subject to this License's terms, each Contributor grants You a perpetual, worldwide, non-exclusive, royalty-free, irrevocable copyright license to:
+    (a) Reproduce the Work
+    (b) Prepare Derivative Works
+    (c) Publicly display, perform, and transmit the Work
+    (d) Sublicense the foregoing rights
+2.2 These rights may be exercised through all media formats and distribution channels whether now known or hereafter devised.
+
+3. Patent License Grant
+
+3.1 Subject to this License's terms, each Contributor grants You a worldwide, non-exclusive, royalty-free, irrevocable (except under Section 7.2) patent license to:
+    (a) Make, use, sell, and import the Work
+    (b) Exercise rights granted in Section 2
+    solely for patent claims necessarily infringed by:
+        (i) Contributor's Contribution(s) alone, or
+        (ii) Combination of Contribution(s) with Work
+3.2 Termination: This patent license terminates for all licensees immediately upon Your initiation of patent litigation against any entity (including counterclaim or defense) alleging Work infringement.
+
+4. Redistribution Requirements
+
+4.1 You may distribute Works/Derivative Works provided:
+    (a) Recipients receive complete License copy
+    (b) Modified files display prominent change notices
+    (c) Attribution notices (copyright/patent/trademark) are preserved in Source Forms
+4.2 Additional Requirements for Derivative Works:
+    (a) NOTICE file contents must be provided in Source Form or machine-readable metadata (SPDX format specified in Appendix)
+    (b) Web-based attribution must comply with WCAG 2.1 AA accessibility standards
+4.3 Network Deployment Exclusion: Provision of Work through network services confers no obligation to disclose service implementation source code.
+
+5. Submission of Contributions
+
+5.1 Unless expressly designated otherwise, Contributions are licensed under this License without additional conditions.
+5.2 Signed contributor agreements supersede this provision when properly executed.
+
+6. Trademark Rights
+
+6.1 No trademark rights are granted except for attribution purposes identifying Work origin.
+6.2 All brand identifiers remain exclusive property of Licensor.
+
+7. Warranty Disclaimer and Liability Limitation
+
+7.1 WARRANTY DISCLAIMER: THE WORK IS PROVIDED "AS IS." CONTRIBUTORS DISCLAIM ALL WARRANTIES INCLUDING MERCHANTABILITY, FITNESS FOR PURPOSE, AND NON-INFRINGEMENT.
+7.2 LIABILITY LIMITATION:
+    (a) EXCEPT WHERE PROHIBITED BY LAW, CONTRIBUTORS SHALL HAVE NO LIABILITY FOR ANY DAMAGES INCLUDING LOST PROFITS OR DATA
+    (b) LIABILITY CAPS COMPLY WITH:
+        (i) EU Product Liability Directive (85/374/EEC)
+        (ii) US Uniform Commercial Code §2-719
+        (iii) Applicable consumer protection regulations
+
+8. Termination
+
+8.1 Automatic Termination: Rights terminate immediately upon:
+    (a) Material breach of Section 4 obligations
+    (b) Patent litigation actions under Section 3.2
+8.2 Cure Period: Termination is void if breach is cured within 30 days of notice.
+8.3 Survival: Downstream recipients remain licensed if compliant.
+
+9. Jurisdictional Compliance
+
+9.1 Governing Law: UNIDROIT Principles supplemented by Governance Jurisdiction law.
+9.2 Regulatory Integration: This License incorporates:
+    (a) EU Copyright Directive 2001/29/EC Articles 2-5
+    (b) WIPO Copyright Treaty provisions
+    (c) Hague Convention on Choice of Court Agreements
+9.3 Enforcement: License validity is preserved under equivalent legal principles if any provision conflicts with local law.
+
+10. Dispute Resolution
+
+10.1 Parties shall attempt good-faith negotiation for 60 days.
+10.2 Unresolved disputes shall be settled by binding arbitration under ICC Rules.
+10.3 Venue selection shall follow Hague Convention procedures in neutral jurisdiction.
+
+11. General Provisions
+
+11.1 Assignment: Rights are assignable upon entity reorganization or succession.
+11.2 Notices: Valid notice delivery includes electronic submission to Licensor's designated contact.
+11.3 Entire Agreement: This constitutes the complete understanding between parties regarding the Work.
+11.4 Severability: Invalid provisions will be reformed to maximum enforceable extent.
+11.5 Third-Party Components: Separate license terms govern non-Work components.
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX: LICENSE IMPLEMENTATION
+
+A. Notices
+Include verbatim notice in all source and prominent distribution points:
+
+Copyright [YEAR] [COPYRIGHT HOLDER(S)]
+Licensed under the Patent-Safe Permissive License (PSPL)
+SPDX-License-Identifier: [Await approval]
+Full text: https://github.com/WyattAu/PatentSafePermissiveLicense
+
+B. Machine-Readable Metadata
+For digital distributions, provide JSON metadata:
+
+{
+  "package": "[Package Identifier]",
+  "copyright": "Copyright © [YEAR] [HOLDER]",
+  "license": "PSPL",
+  "attribution": {
+    "sources": ["https://github.com/WyattAu/PatentSafePermissiveLicense"]
+  }
+}
+
+C. Accessibility Compliance
+Web-based attributions must:
+- Meet WCAG 2.1 AA contrast requirements
+- Remain persistently viewable during service use
+- Provide ARIA-compliant machine-readable tagging
+
+END OF LICENSE

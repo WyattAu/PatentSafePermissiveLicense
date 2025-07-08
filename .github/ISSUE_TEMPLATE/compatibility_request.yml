@@ -1,0 +1,51 @@
+name: Compatibility Inquiry
+description: Check interaction with other licenses
+title: "[COMPATIBILITY] "
+labels: ["compatibility", "requires-osi-input"]
+body:
+  - type: dropdown
+    id: license-1
+    attributes:
+      label: Primary License
+      options:
+        - PSPL-1.0
+        - Custom
+      multiple: false
+    validations:
+      required: true
+  - type: dropdown
+    id: license-2
+    attributes:
+      label: Secondary License
+      description: "Check SPDX identifiers: https://spdx.org/licenses/"
+      options:
+        - GPL-2.0
+        - GPL-3.0
+        - AGPL-3.0
+        - LGPL-3.0
+        - MPL-2.0
+        - Apache-2.0
+        - MIT
+        - BSD-3-Clause
+        - Custom
+      multiple: false
+    validations:
+      required: true
+  - type: dropdown
+    id: use-case
+    attributes:
+      label: Interaction Type
+      options:
+        - Linking
+        - Static Compilation
+        - Dynamic Loading
+        - Combined Distribution
+        - Modified Derivation
+      multiple: false
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Project Context
+      placeholder: "We're building an SDK that combines..."

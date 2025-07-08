@@ -1,0 +1,54 @@
+name: Legal Amendment Proposal
+description: Suggest changes to license terms
+title: "[AMENDMENT] "
+labels: ["substantive", "requires-legal-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **WARNING**: Substantive changes may affect thousands of projects.  
+        > Consult [Amendment Process](CONTRIBUTING.md) before proceeding.
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Legal Problem Statement
+      description: Describe the legal gap or risk being addressed
+      placeholder: >
+        The current wording in §3.2 creates ambiguity under EU Directive 2019/770...
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-language
+    attributes:
+      label: Proposed Wording
+      description: Exact text changes with line references
+      placeholder: |
+        Replace §4.1:  
+        "Recipient shall..." → "Licensee must..."
+    validations:
+      required: true
+  - type: dropdown
+    id: jurisdiction-impact
+    attributes:
+      label: Jurisdictional Impact
+      description: Regions affected by change
+      options:
+        - Global
+        - EU
+        - US-CA
+        - US-NY
+        - APAC
+        - Other
+      multiple: true
+    validations:
+      required: true
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Legal Declarations
+      options:
+        - label: I confirm this change doesn't create patent ambush risks
+          required: true
+        - label: I've verified compatibility with Apache-2.0 and GPL-3.0
+        - label: I represent no conflicting financial interests
+          required: true

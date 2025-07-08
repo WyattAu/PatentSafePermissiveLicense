@@ -1,0 +1,42 @@
+{
+    "[plaintext]": {
+        "editor.rulers": [
+            72
+        ],
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 72,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+    },
+    "customTextFormatters.rfc7991": {
+        "allowedChars": "[\\x20-\\x7E\\t\\n\\r\\x0C]",
+        "formFeedInterval": 58
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "prettier.proseWrap": "always",
+        "prettier.printWidth": 80,
+        "prettier.tabWidth": 2,
+        "markdownlint.config": {
+            "MD001": true, // Header hierarchy
+            "MD003": {
+                "style": "atx"
+            },
+            "MD004": {
+                "style": "dash"
+            },
+            "MD007": {
+                "indent": 2
+            },
+            "MD013": {
+                "line_length": 80,
+                "code_blocks": false
+            },
+            "MD024": {
+                "allow_different_nesting": true
+            },
+            "MD047": true // File ends with newline
+        }
+    }
+}

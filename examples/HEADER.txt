@@ -1,0 +1,4 @@
+Copyright [YEAR] [COPYRIGHT HOLDER(S)]  
+Licensed under the Patent-Safe Permissive License (PSPL)
+SPDX-License-Identifier: [Await approval]
+Full text: https://github.com/WyattAu/PatentSafePermissiveLicense 

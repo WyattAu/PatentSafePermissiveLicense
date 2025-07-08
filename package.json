@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0"
+  },
+  "scripts": {
+    "lint:md": "markdownlint '**/*.md' --config .markdownlint.yaml",
+    "fix:md": "markdownlint '**/*.md' --config .markdownlint.yaml --fix",
+    "validate:rfc": "python3 scripts/rfc7991_formatter.py --validate"
+  }
+}
